@@ -221,6 +221,27 @@ header .entry-meta {
     }
 }
 
+/* code */
+li code, p code, code {
+    white-space: nowrap;
+    background-color: #e8e8e8;
+    margin: 0 2px;
+    padding: 0 5px;
+    font-size: 14px;
+    border: 1px solid #d0d1d5;
+    border-radius: 4px;
+    &.code-tag {
+        &:hover {
+            background-color: $navy;
+            color: white;
+        }
+    }
+    &.txt-ignore {
+        color: #e4e4e4;
+        border: 0px;
+    }
+}
+
 /* Grid System */
 .myrow {
     display: -webkit-flex;
@@ -1002,7 +1023,7 @@ header .entry-meta {
     }
 }
 .myhighlight {
-    color: $red !important;
+    color: $navy !important;
 }
 /* hr line */
 .myline {
@@ -1045,6 +1066,8 @@ h5 {
 }
 strong {
     font-weight: 600;
+    font-family: $font3;
+    font-size: 16px;
 }
 
 .s-hidden {
