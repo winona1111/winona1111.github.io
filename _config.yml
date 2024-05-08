@@ -8,8 +8,8 @@ logo:               'assets/img/profile.jpg'
 background:         'assets/img/background_2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                http://127.0.0.1:4000/    # for local development
-# url:                https://winona1111.github.io/  # for deployment
+# url:                http://127.0.0.1:4000/    # for local development
+url:                https://winona1111.github.io/  # for deployment
 
 # Jekyll
 permalink:          /:title/
