@@ -10,6 +10,6 @@ group :jekyll_plugins do
     gem 'jekyll-mentions'
     gem "webrick"
     gem 'faraday-retry'
-    end
+  end
 
 # gem "bigdecimal", "~> 1.4.1"
