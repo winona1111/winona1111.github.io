@@ -32,7 +32,6 @@ layout: compress
                 <hr class="hr-line">
 
                 <h3 class="title">
-                    <!-- <code style="font-size:1.2rem;font-weight:500;color:#003D79;">Status</code> -->
                     <code class="code-status">Current Status</code>
                 </h3>
 
@@ -46,7 +45,7 @@ layout: compress
 
                 <h3 class="title">
                     <a class="btn zoombtn" href="{{ site.url }}/about">About</a>
-                    <a class="btn zoombtn" href="https://github.com/winona1111/winona1111.github.io/assets/pdf/CV_231104.pdf" target="_blank" id="cv" style="font-size:16px;">
+                    <a class="btn zoombtn" href="#"ｓ id="cv" style="font-size:16px;">
                         <i class="fa fa-file-pdf-o" style="margin-right: 10px;"></i>CV
                     </a>
                     <a class="btn zoombtn" href="{{ site.url }}/projects">Projects</a>
@@ -58,5 +57,20 @@ layout: compress
         </div>
     </header>
     {% include scripts.html %}
+    <script src="https://documentcloud.adobe.com/view-sdk/viewer.js"></script>
+    <script type="text/javascript">
+        const previewConfig = {
+            embedMode: "LIGHT_BOX",
+            exitPDFViewerType: "RETURN",
+        };
+
+        document.getElementById('cv').addEventListener("click", function(){ 
+            var adobeDCView = new AdobeDC.View({clientId: "34b2d8450c5f4119bfee8ffa8edae6a2"});
+            adobeDCView.previewFile({
+                content:{location: {url: "/assets/pdf/CV_231104.pdf"}},
+                metaData:{fileName: "CV_YunTungChu.pdf"}
+            }, previewConfig);
+        });
+    </script>
 </body>
 </html>
