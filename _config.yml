@@ -1,6 +1,6 @@
 # Site
-title:              Winona | Yun-Tung, Chu
-bio:                'MS ECE @UW-Seattle'
+title:              Winona | Yun-Tung Chu
+bio:                'MS ECE @ UW-Seattle'
 description:        #"Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
@@ -8,8 +8,8 @@ logo:               'assets/img/profile.jpg'
 background:         'assets/img/background_2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-# url:                http://127.0.0.1:4000/    # for local development
-url:                https://winona1111.github.io/  # for deployment
+url:                http://localhost:4000/    # for local development
+# url:                https://winona1111.github.io/  # for deployment
 
 # Jekyll
 permalink:          /:title/
@@ -25,6 +25,10 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+
 
 # Comments
 disqus_shortname:   taylantatli

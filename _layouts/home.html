@@ -13,21 +13,22 @@ layout: compress
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
+        <!-- <div class="mycontainer home"> -->
             <div class="row">
-                <a href="{{ site.url }}">
-                    <img src="{{ site.logo }}" class="img-circle zoombtn">
-                </a>
+                <!-- <a href="{{ site.url }}"> -->
+                <img src="{{ site.logo }}" class="img-circle zoombtn">
+                <!-- </a> -->
                 <h3 class="title">
-                    <a class="zoombtn" href="{{ site.url }}">
-                        <p style="font-size:1.5rem;font-weight:600">{{ site.title }}</p>
-                    </a>
+                    <!-- <a class="zoombtn" href="{{ site.url }}"> -->
+                    <p style="font-size:1.5rem;font-weight:600">{{ site.title | strip_html}}</p>
+                    <!-- </a> -->
                 </h3>
                 <hr class="hr-line">
 
                 <h3 class="title">
-                    <a href="{{ site.url }}">
-                        <p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
-                    </a>
+                    <!-- <a href="{{ site.url }}"> -->
+                    <p style="font-size:1rem;font-weight:300">{{ site.bio | strip_html6}}</p>
+                    <!-- </a> -->
                 </h3>
                 <hr class="hr-line">
 
@@ -37,8 +38,11 @@ layout: compress
 
                 <h3 class="title" style="display:block">
                     <div class="row-home">
-                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><i class="fa fa-calendar-o" aria-hidden="true" style="font-size:13px;margin-right:5px;"></i>03/2023</div>
-                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="word-wrap: break-word;">Worked on graduation project.</div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><i class="fa fa-calendar-o" aria-hidden="true" style="font-size:13px;margin-right:5px;"></i>01/2025</div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="word-wrap: break-word;">Capstone Project with <b>Astrolabe Analytics</b> </div>
+                        <!-- how do i add a space line here -->
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4"><i class="fa fa-calendar-o" aria-hidden="true" style="font-size:13px;margin-right:5px;"></i>09/2024</div>
+                        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" style="word-wrap: break-word;">Pursuing MS ECE at UW</b> </div>
                     </div>
                 </h3>
                 <hr class="hr-line">
@@ -65,9 +69,9 @@ layout: compress
         };
 
         document.getElementById('cv').addEventListener("click", function(){ 
-            var adobeDCView = new AdobeDC.View({clientId: "34b2d8450c5f4119bfee8ffa8edae6a2"});
+            var adobeDCView = new AdobeDC.View({clientId: "3b1b59a09ef5411494a834a09ed49726"});
             adobeDCView.previewFile({
-                content:{location: {url: "/assets/pdf/CV_231104.pdf"}},
+                content:{location: {url: "/assets/pdf/CV_012525.pdf"}},
                 metaData:{fileName: "CV_YunTungChu.pdf"}
             }, previewConfig);
         });
