@@ -53,7 +53,7 @@ function expand(id) {
 function expand_section(id, showall=false, close=true) {
 
     // var sections = ["pub", "ski", "edu", "exp"];
-    var sections = ['ski', 'edu', 'job', 'exp'];
+    var sections = ['ski', 'edu', 'exp', 'act'];
 
     var highlight = "myhighlight";
 
@@ -187,8 +187,8 @@ function show_detail(id, elements) {
 function highlight(id) {
     var ids = [
         "all", "work", "proj",
-        "row-exp-work1", "row-exp-work2", "row-exp-work3", "row-exp-work4",
-        "row-exp-proj1", "row-exp-proj2"
+        "row-exp-work1", "row-exp-work2",
+        "row-exp-proj1", "row-exp-proj2", "row-exp-proj3", "row-exp-proj4"
 
     ];
 

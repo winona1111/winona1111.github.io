@@ -13,11 +13,16 @@ layout: compress
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="mycontainer">
-        <!-- <div class="wrapper animated fadeIn"> -->
             {% include nav-about.html %}
-            <div class="content">
+            <div class="content">                   
                 <div class="post-title title-spacing {% if page.feature %} feature {% endif %}">
                     <h1>{{ page.title }}</h1>
+                    <p style="text-align: center;">
+                        <a href="mailto:yuntungc@uw.edu" target="_blank"><i class="fa fa-envelope-square contact-icon"></i>yuntungc@uw.edu</a>
+                        <a href="https://www.linkedin.com/in/yuntungc/" target="_blank"><i class="fa fa-linkedin-square contact-icon"></i>yuntungc</a>
+                        <a href="https://github.com/winona1111" target="_blank"><i class="fa fa-github contact-icon"></i>winona1111</a>
+                        <a href="https://medium.com/@wyuntc" target="_blank"><i class="fa fa-book contact-icon"></i>Medium</a>
+                    </p>
                 </div>
                 {{ content}}
             </div>

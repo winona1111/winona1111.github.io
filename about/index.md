@@ -135,10 +135,10 @@ comments: false
         </code>
     </strong>
     <!-- UW -->
-    <div id="row-exp-proj1" class="myrow hover">
+    <div id="row-exp-1" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jan. 2025 - Present</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('hide-1')" style="cursor:pointer"><strong>University of Washington - Capstone Project</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington - Capstone Project</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
@@ -155,7 +155,7 @@ comments: false
     <div id="row-exp-proj2" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Apr. 2022 - Dec. 2023</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('hide-1')" style="cursor:pointer"><strong>Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
@@ -186,7 +186,7 @@ comments: false
     <div id="row-exp-work1" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Aug. 2023 - Dec. 2023</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('hide-1')" style="cursor:pointer"><strong>Hualiteq International Co.</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Hualiteq International Co.</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
@@ -210,81 +210,134 @@ comments: false
             <code id="tag-work1-5">Technical Documentation</code>
         </div>
     </div>
-</div>
-
-<!-- Work/Internship Experience -->
-<h2 id="job-title" class="resume-title">
-    <a id="job-sec" href="#job-title" onclick="expand_section('job')">Education <i id="job-icon" class="fa fa-plus-square"></i></a>
-</h2>
-<div id="job" style="display: none">
-    <div id="row-job-1" class="myrow hover">
-        <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Aug. 2023 - Dec. 2023</div>
-        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington (UW)</strong></div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
-        <!-- Title -->
-        <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">M.S. student in Electrical and Computer Engineering <code>GPA: 3.86 / 4.0</code></div>
-        <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
-            <!-- <li>Advisors: <a href="https://www.linkedin.com/in/mung-chiang-9511445/" target= "_blank">Prof. Mung Chiang</a>, <a href="https://kimkt.com/" target= "_blank"> Prof. Kwang Taik Kim</a></li> -->
-            <li>Capstone Project: Organization and Analysis of Battery Data from Heterogenous Sources with
-                 <strong>Astrolabe Analytics</strong></li>
-            <li>Coursework: AI For Mobile Robots, Large Language Models, Embedded System</li>
-        </div>
-    </div><div id="row-edu-2" class="myrow hover">
-        <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2020 - Jan. 2024</div>
-        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>National Chengchi University (NCCU)</strong></div>
+    <!-- Innodisk -->
+    <div id="row-exp-work2" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jul. 2022 - Aug. 2022</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Innodisk Co.</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
-        <!-- Title -->
+        <!-- Position -->
         <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">B.S. student in Management Information System <code>GPA: 4.04 / 4.3</code></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Software Research and Development Intern</div>
+        <!-- Description -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
-            <li>Advisors: <a href="https://ah.lib.nccu.edu.tw/scholar?id=8514&locale=zh_TW" target= "_blank">Prof. Shih-Yi Chien</a></li>
-            <li>Coursework: Data Structure, Algorithms, Operating System, Database Management Systems</li>
+            <div class="description">
+                <li>Utilized LabelImg, developed data augmentation to expand image training datasets by 4.5 times.</li>
+                <li>Optimized the YOLOv4-tiny model on Xilinx KV260 using Vitis-AI, achieving 95% mAP@0.45 in detecting screw welding defects and improved inference speed by 50+ FPS.</li>
+                <li>Developed a Python-based unit testing for the team project, enhancing error detection.</li>
+                <li>Orchestrated project containerization using Docker under Linux environment..</li>
+            </div>
+        </div>
+        <!-- Tags -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-wor2-1">Machine Learning</code>
+            <code id="tag-work2-2">Object Detection</code>
+            <code id="tag-work2-3">Python</code>
+            <code id="tag-work2-4">Unit Test</code>
+            <code id="tag-work2-5">Linux</code>
+        </div>
+    </div>
+    <!-- Transnational vaccination verification system -->
+    <div id="row-exp-proj3" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Apr. 2022 - Jun. 2022</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Transnational vaccination verification system</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
+        <!-- Position -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Back-end Developer</div>
+        <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Developed a comprehensive web platform providing integrated travel and vaccination information for cross-border entry requirements during the COVID-19 pandemic.</li>
+                <li>Implemented a robust MySQL database to centralize and manage international travel and entry regulations, utilizing PHP to dynamically render and access critical information.</li>
+                <li>Designed an interactive user interface featuring registration and commenting functionalities, enabling collaborative knowledge sharing and real-time information updates for travelers.</li>
+            </div>
+        </div>
+        <!-- Tags -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-proj3-1">Software Development</code>
+            <code id="tag-proj3-2">MySQL</code>
+            <code id="tag-proj3-3">PHP</code>
+            <code id="tag-proj3-3">HTML</code>
+        </div>
+    </div>
+    <!-- Money Grabber -->
+    <div id="row-exp-proj4" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Feb. 2021 - Jun. 2021</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Money Grabber</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
+        <!-- Position -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Developer</div>
+        <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Developed a location-based restaurant discovery application for campus environments using Java in Eclipse, designed to assist new students in quickly exploring local dining options.</li>
+                <li>Implemented web scraping techniques utilizing Python's Selenium and BeautifulSoup libraries to aggregate comprehensive restaurant information from Google Map.</li>
+                <li>Enhanced user experience by integrating Google Maps API, providing interactive geographical visualization and refined interface design for seamless restaurant exploration.</li>
+            </div>
+        </div>
+        <!-- Tags -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-proj4-1">Software Development</code>
+            <code id="tag-proj4-2">Web scraping</code>
+            <code id="tag-proj4-3">Python</code>
+            <code id="tag-proj4-4">Selenium</code>
+            <code id="tag-proj4-5">API</code>
         </div>
     </div>
 </div>
 
-<!-- Projects Experience -->
-<h2 id="edu-title" class="resume-title">
-    <a id="edu-sec" href="#edu-title" onclick="expand_section('edu')">Education <i id="edu-icon" class="fa fa-plus-square"></i></a>
+<!-- Activities Experience -->
+<h2 id="act-title" class="resume-title">
+    <a id="act-sec" href="#act-title" onclick="expand_section('act')">Activities <i id="act-icon" class="fa fa-plus-square"></i></a>
 </h2>
-<div id="edu" style="display: none">
-    <div id="row-edu-1" class="myrow hover">
-        <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2024 - Aug. 2026</div>
-        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington (UW)</strong></div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
-        <!-- Title -->
-        <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">M.S. student in Electrical and Computer Engineering <code>GPA: 3.86 / 4.0</code></div>
-        <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
-            <!-- <li>Advisors: <a href="https://www.linkedin.com/in/mung-chiang-9511445/" target= "_blank">Prof. Mung Chiang</a>, <a href="https://kimkt.com/" target= "_blank"> Prof. Kwang Taik Kim</a></li> -->
-            <li>Capstone Project: Organization and Analysis of Battery Data from Heterogenous Sources with
-                 <strong>Astrolabe Analytics</strong></li>
-            <li>Coursework: AI For Mobile Robots, Large Language Models, Embedded System</li>
-        </div>
-    </div><div id="row-edu-2" class="myrow hover">
-        <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2020 - Jan. 2024</div>
-        <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>National Chengchi University (NCCU)</strong></div>
+<div id="act" style="display: none">
+    <div id="row-act-1" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jun. 2022 - Jun. 2023</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>NCCU Data Analytics Club</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
-        <!-- Title -->
+        <!-- Position -->
         <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">B.S. student in Management Information System <code>GPA: 4.04 / 4.3</code></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Marketing Team</div>
+        <!-- Description -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
-            <li>Advisors: <a href="https://ah.lib.nccu.edu.tw/scholar?id=8514&locale=zh_TW" target= "_blank">Prof. Shih-Yi Chien</a></li>
-            <li>Coursework: Data Structure, Algorithms, Operating System, Database Management Systems</li>
+            <div class="description">
+                <li>Used data analysis skills and Looker Studio to analyze the marketing effect of the community background data.</li>
+                <li>Used Adobe illustrator and Photoshop to produce social media graphic.</li>
+            </div>
+        </div>
+    </div>
+    <div id="row-act-1" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jun. 2022 - Jun. 2023</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>NCCU Commerce Career Ambassador</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
+        <!-- Position -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Head of Design Dept. | Marketing Dept.</div>
+        <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Cultivated leadership and program management skill.</li>
+                <li>Coordinating the design and publicity of the three major activities of NCCU: 'Baozhong Tea Festival', the Christmas event, Commerce College 'Elite Seed Camp".</li>
+                <li>Designed the main visual of the Christmas event, and the participation rate of the activities was 12 times last year.</li>
+                <li>Served as an Adobe illustrator introductory lecturer.</li>
+            </div>
         </div>
     </div>
 </div>
-
