@@ -143,6 +143,15 @@ comments: false
         <!-- Position -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Software Engineer</div>
+         <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Designed and implemented a web portal for standardizing battery data from heterogeneous sources, enabling efficient data analysis of diverse battery test datasets using Flask and Python.</li>
+                <li>Developed a software module for battery cycling dataset standardization and preprocessing using Matplotlib and Pandas, improving data analysts' work efficiency.</li>
+                <li>Built AWS database integration for centralized data management, streamlining data access and enabling collaborative analysis across research teams.</li>
+            </div>
+        </div>
         <!-- Tags -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
@@ -169,6 +178,9 @@ comments: false
                 <li>Built a partial frame color adjustment function using a custom color transformation matrix within the Unity development environment with C#.</li>
                 <li>Optimized device integration through Socket programming and C# Coroutines, successfully reducing screen synchronization latency between remote devices and local servers by 100 ms.</li>
                 <li>Secured First Place in the 2023 National Universities Innovation Competition.</li>
+                <li>GitHub Repo
+                    <a href="https://github.com/winona1111/UnitywithOD" style="text-decoration:none" target="_blank"><code class="code-link" id="link-se-iot"><i class="fa fa-github"></i> UnitywithOD</code></a>
+                </li>
             </div>
         </div>
         <!-- Tags -->
