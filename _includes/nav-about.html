@@ -10,9 +10,10 @@
                                 <div class="myline colored" style="width: 100%; background-color: grey;"></div>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#ski-title" onclick="expand_section('ski', false, false)">Skills</a></li>
-                                <li><a href="#pub-title" onclick="expand_section('pub', false, false)">Publications</a></li>
+                                <!-- <li><a href="#pub-title" onclick="expand_section('pub', false, false)">Publications</a></li> -->
                                 <li><a href="#edu-title" onclick="expand_section('edu', false, false)">Education</a></li>
                                 <li><a href="#exp-title" onclick="expand_section('exp', false, false)">Experience</a></li>
+                                <li><a href="#act-title" onclick="expand_section('act', false, false)">Activities</a></li>
                             </div>
                         </div>
                     </div>
@@ -28,7 +29,7 @@
                 document.getElementById('cv').addEventListener("click", function(){ 
                     var adobeDCView = new AdobeDC.View({clientId: "3b1b59a09ef5411494a834a09ed49726"});
                     adobeDCView.previewFile({
-                        content:{location: {url: "/assets/pdf/CV_032525.pdf"}},
+                        content:{location: {url: "/assets/pdf/CV_061625.pdf"}},
                         metaData:{fileName: "CV_YunTungChu.pdf"}
                     }, previewConfig);
                 });

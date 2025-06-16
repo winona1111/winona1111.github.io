@@ -10,8 +10,10 @@ comments: false
 <h2 id="about" class="resume-title">About Me</h2>
 <div class="myrow">
     <div class="col-12" style="text-align:left">
-        Hi! I'm Winona, currently pursuing <strong> master's degree at UW </strong>. <br/>
-        Highly motivated, Efficiency, easy going are how my mentors describe me after two internship. With 4+ years of experience in Java and Python and a proven track record in developing full stack software function and optimizing computer vision model performance. My research interests include software development, edge computing, human-computer interaction and machine learning in computer vision.<br/>
+        Hi! I'm Winona from Taiwan. I'm currently pursuing my <strong>Master's Degree at University of Washington</strong> in US.<br/>
+        Highly motivated, Efficiency, easy going are how my mentors describe me after two internship. With 4+ years of experience in Java and Python, I'm not only familiar with <strong>full-stack web development</strong>, but I also have experience in different fields such as <strong>machin learning</strong> in <strong>computer vision</strong> and <strong>robotics</strong>.<br/>
+        <!-- and a proven track record in developing full stack software function and optimizing computer vision model performance. My research interests include software development, edge computing, human-computer interaction and machine learning in computer vision.<br/> -->
+        During my free time, I enjoy playing basketball, watching TV series, and taking city walks. I'm lowkey trying to record movie reviews on my website (there's not much there yet though!). I also write about some of my experiences at UW on Medium!
     </div>
 </div>
 <p style="text-align:right">
@@ -28,12 +30,14 @@ comments: false
             <strong>Languages</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
+            <code class="code-tag">OOP</code>
             <code class="code-tag">Python</code>
             <code class="code-tag">Java</code>
             <code class="code-tag">SQL</code>
             <code class="code-tag">HTML/CSS</code>
             <code class="code-tag">Javascript</code>
             <code class="code-tag">PHP</code>
+            <code class="code-tag">C#</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -43,12 +47,26 @@ comments: false
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
             <code class="code-tag">Git</code>
             <code class="code-tag">GitHub</code>
+            <code class="code-tag">Docker</code>
             <code class="code-tag">Vim</code>
             <code class="code-tag">Postman</code>
             <code class="code-tag">VS code</code>
             <code class="code-tag">Visual Studio</code>
             <code class="code-tag">Eclipse</code>
+            <code class="code-tag">Beaver</code>
             <code class="code-tag">Notion</code>
+            <code class="code-tag">Unity</code>
+        </div>
+    </div>
+    <div class="myrow no-margin" style="vertical-align: middle;">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3" style="text-align:left;">
+            <strong>Web Development</strong>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
+            <code class="code-tag">React</code>
+            <code class="code-tag">Restful API</code>
+            <code class="code-tag">FastAPI</code>
+            <code class="code-tag">AWS</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -58,6 +76,7 @@ comments: false
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
             <code class="code-mtagargin">MySQL</code>
             <code class="code-tag">MSSQL</code>
+            <code class="code-tag">PostgreSQL</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -89,19 +108,19 @@ comments: false
 <div id="edu" style="display: none">
     <div id="row-edu-1" class="myrow hover">
         <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2024 - Aug. 2026</div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2024 - Mar. 2026</div>
         <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington (UW)</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
         <!-- Title -->
         <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">M.S. student in Electrical and Computer Engineering <code>GPA: 3.86 / 4.0</code></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">M.S. in Electrical and Computer Engineering <code>GPA: 3.86 / 4.0</code></div>
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <!-- <li>Advisors: <a href="https://www.linkedin.com/in/mung-chiang-9511445/" target= "_blank">Prof. Mung Chiang</a>, <a href="https://kimkt.com/" target= "_blank"> Prof. Kwang Taik Kim</a></li> -->
             <li>Capstone Project: Organization and Analysis of Battery Data from Heterogenous Sources with
                  <strong>Astrolabe Analytics</strong></li>
-            <li>Coursework: AI For Mobile Robots, Large Language Models, Embedded System</li>
+            <li>Coursework: AI For Mobile Robots, Large Language Models, Embedded System, VR Application</li>
         </div>
     </div><div id="row-edu-2" class="myrow hover">
         <!-- Time Range / Institution / Location -->
@@ -111,7 +130,7 @@ comments: false
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
         <!-- Title -->
         <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">B.S. student in Management Information System <code>GPA: 4.04 / 4.3</code></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">B.S. in Management Information System <code>GPA: 4.04 / 4.3</code></div>
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <li>Advisors: <a href="https://ah.lib.nccu.edu.tw/scholar?id=8514&locale=zh_TW" target= "_blank">Prof. Shih-Yi Chien</a></li>
@@ -137,19 +156,21 @@ comments: false
     <!-- UW -->
     <div id="row-exp-1" class="myrow hover">
         <!-- Time Range / Title / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jan. 2025 - Present</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington - Capstone Project</strong></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jan. 2025 - Jun. 2025</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>UW Capstone Project: A Cloud-Based Multimodal Data Ingestion Platform for Time Series, Cycling, and Open-Circuit Battery Data</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Software Engineer</div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Full-stack Engineer</div>
          <!-- Description -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
-                <li>Designed and implemented a web portal for standardizing battery data from heterogeneous sources, enabling efficient data analysis of diverse battery test datasets using Flask and Python.</li>
-                <li>Developed a software module for battery cycling dataset standardization and preprocessing using Matplotlib and Pandas, improving data analysts' work efficiency.</li>
-                <li>Built AWS database integration for centralized data management, streamlining data access and enabling collaborative analysis across research teams.</li>
+                <li>Architected a modular data processing pipeline (extract → clean → standardize → split) triggered via FastAPI endpoints and backed by S3-based file storage and PostgreSQL metadata tracking.</li>
+                <li>Implemented the frontend using React with dynamic routing and secure authentication via OAuth2, providing clients with isolated access to project-specific data.</li>
+                <li>Designed and implemented comprehensive RESTful API architecture with 15+ endpoints handling multimodal data ingestion, user authentication, and real-time processing status tracking.</li>
+                <li>Deployed and configured AWS EC2 instances with PostgreSQL database integration, ensuring secure cloud infrastructure for production-grade data storage and retrieval.</li>
+                <li>Leveraged OpenAI’s GPT API to intelligently match and standardize noisy or non-uniform column names across datasets, improving automation accuracy and reducing manual data mapping effort.</li>
             </div>
         </div>
         <!-- Tags -->
@@ -158,13 +179,15 @@ comments: false
             <i class="fa fa-hashtag hash-tag-spacing"></i>
             <code id="tag-proj1-1">Software Development</code>
             <code id="tag-proj1-2">Data Science</code>
+            <code id="tag-proj1-2">Web Development</code>
+            <code id="tag-proj1-2">REST API</code>
         </div>
     </div>
     <!-- NCCU Graduated Project -->
     <div id="row-exp-proj2" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Apr. 2022 - Dec. 2023</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>NCCU Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
@@ -207,8 +230,8 @@ comments: false
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
-                <li>Utilized JavaScript and Genesys Composer to develop IVR project and connected IVR to system MS SQL Server with stored procedure.</li>
-                <li>Authored technical documentation on GitLab integration for enterprise project management.</li>
+                <li>Developed backend logic for an IVR system using JavaScript and MSSQL, and implemented dynamic voice response generation through Google TTS API integration, enabling real-time, personalized user interactions.</li>
+                <li>Documented system integration workflows and GitLab CI practices for team-wide adoption.</li>
             </div>
         </div>
         <!-- Tags -->
@@ -235,10 +258,10 @@ comments: false
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
-                <li>Utilized LabelImg, developed data augmentation to expand image training datasets by 4.5 times.</li>
-                <li>Optimized the YOLOv4-tiny model on Xilinx KV260 using Vitis-AI, achieving 95% mAP@0.45 in detecting screw welding defects and improved inference speed by 50+ FPS.</li>
+                <li>Expanded image dataset by 4.5 times using LabelImg and data augmentation techniques, improving model training efficiency.</li>
+                <li>Converted YOLOv4-tiny and earlier Darknet-based models into ONNX format to enable compatibility with hardware acceleration tools; optimized inference deployment on Xilinx KV260 via Vitis-AI, achieving 95\% mAP at 0.45 IoU and improving inference speed by 50+ FPS.</li>
                 <li>Developed a Python-based unit testing for the team project, enhancing error detection.</li>
-                <li>Orchestrated project containerization using Docker under Linux environment..</li>
+                <li>Containerized project using Docker on Linux to reduce environment-related issues during deployment.</li>
             </div>
         </div>
         <!-- Tags -->
