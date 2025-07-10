@@ -1,0 +1,19 @@
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+    <button id="nav-button" class="dl-trigger dl-active">Open Menu</button>
+    <ul id="nav-menu" class="dl-menu dl-menuopen">
+        <div class="myrow" style="margin: 3px 0px;">
+            <div class="col-12 no-padding">
+                <li><a href="{{ site.url }}/"><i class="fa fa-home" style="margin-right: 5px;"></i>Home</a></li>
+                <li><a href="{{ site.url }}/about/"><i class="fa fa-user" style="margin-right: 5px;"></i>About</a></li>
+                <li><a href="{{ site.url }}/posts/"><i class="fa fa-list" style="margin-right: 5px;"></i>All Posts</a></li>
+                <li><a href="{{ site.url }}/projects/"><i class="fa fa-code" style="margin-right: 5px;"></i>All Projects</a></li>
+                <div class="myline colored" style="width: 100%; background-color: grey;"></div>
+                {% if page.project %}
+                    <li><a href="{{ site.url }}/projects/"><i class="fa fa-chevron-left" style="margin-right: 5px;"></i>Back to Projects</a></li>
+                {% else %}
+                    <li><a href="{{ site.url }}/posts/"><i class="fa fa-chevron-left" style="margin-right: 5px;"></i>Back to Posts</a></li>
+                {% endif %}
+            </div>
+        </div>
+    </ul>
+</nav>
