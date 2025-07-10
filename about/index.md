@@ -157,8 +157,8 @@ comments: false
     <div id="row-exp-1" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jan. 2025 - Jun. 2025</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>UW Capstone Project: A Cloud-Based Multimodal Data Ingestion Platform for Time Series, Cycling, and Open-Circuit Battery Data</strong></div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"><strong>UW Capstone Project: A Cloud-Based Multimodal Data Ingestion Platform for Time Series, Cycling, and Open-Circuit Battery Data</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Full-stack Engineer</div>
@@ -187,8 +187,8 @@ comments: false
     <div id="row-exp-proj2" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Apr. 2022 - Dec. 2023</div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>NCCU Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"><strong>NCCU Graduate Project: MR Application - Color vision deficiency Assistance</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Taipei, Taiwan</div>
         <!-- Position -->
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Software Developer</div>
@@ -201,7 +201,7 @@ comments: false
                 <li>Built a partial frame color adjustment function using a custom color transformation matrix within the Unity development environment with C#.</li>
                 <li>Optimized device integration through Socket programming and C# Coroutines, successfully reducing screen synchronization latency between remote devices and local servers by 100 ms.</li>
                 <li>Secured First Place in the 2023 National Universities Innovation Competition.</li>
-                <li>GitHub Repo
+                <li>GitHub Repo =>
                     <a href="https://github.com/winona1111/UnitywithOD" style="text-decoration:none" target="_blank"><code class="code-link" id="link-se-iot"><i class="fa fa-github"></i> UnitywithOD</code></a>
                 </li>
             </div>

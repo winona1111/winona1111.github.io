@@ -10,16 +10,13 @@ layout: compress
     {% include head.html %}
 </head>
 <body>
-    {% include nav.html %}
+    {% include nav-post.html %}
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
             <div class="content">
                 <div class="post-title">
                     <h1>{{ page.title }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
                 </div>
                 <div class="post-list">
                     {% for post in site.posts %} 
