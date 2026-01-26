@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Winona Chu
+title: Winona Chu | 朱紜彤
 tags: [resume, about, winona, cs, mis, nccu, uw]
-date: 2025-01-25
+date: 2026-01-25
 comments: false
 ---
 
@@ -10,10 +10,10 @@ comments: false
 <h2 id="about" class="resume-title">About Me</h2>
 <div class="myrow">
     <div class="col-12" style="text-align:left">
-        Hi! I'm Winona from Taiwan. I'm currently pursuing my <strong>Master's Degree at University of Washington</strong> in US.<br/>
-        Highly motivated, Efficiency, easy going are how my mentors describe me after two internship. With 4+ years of experience in Java and Python, I'm not only familiar with <strong>full-stack web development</strong>, but I also have experience in different fields such as <strong>machin learning</strong> in <strong>computer vision</strong> and <strong>robotics</strong>.<br/>
-        <!-- and a proven track record in developing full stack software function and optimizing computer vision model performance. My research interests include software development, edge computing, human-computer interaction and machine learning in computer vision.<br/> -->
-        During my free time, I enjoy playing basketball, watching TV series, and taking city walks. I'm lowkey trying to record movie reviews on my website (there's not much there yet though!). I also write about some of my experiences at UW on Medium!
+        I'm Winona from Taiwan, currently pursuing my Master's in Electrical and Computer Engineering at the University of Washington.<br/>
+        I'm a Graduate Research Assistant in <a href="https://people.ece.uw.edu/hwang/" target="_blank">Professor Jenq-Neng Hwang's</a> <a href="https://ipl-uw.github.io" target="_blank">Information Processing Lab</a>, specializing in computer vision and object detection. I work with YOLOv8 models, synthetic data generation pipelines, and generative AI for 3D environments. My technical toolkit includes Python, Java, PyTorch, TensorFlow, Docker, AWS, and React.<br/>
+        Previously, I interned at Innodisk optimizing YOLO models and at Hualiteq building IVR backend systems. I also won 1st Place in the 2023 National Universities Innovation Competition for developing a color vision assistance MR app.<br/>
+        During my free time, I enjoy playing basketball, watching TV series, and taking city walks. I'm lowkey trying to record life in US on my website (there's not much there yet though!). I also write about some of my experiences at UW on Medium!<br/>
     </div>
 </div>
 <p style="text-align:right">
@@ -30,32 +30,25 @@ comments: false
             <strong>Languages</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
-            <code class="code-tag">OOP</code>
             <code class="code-tag">Python</code>
             <code class="code-tag">Java</code>
+            <code class="code-tag">JavaScript</code>
+            <code class="code-tag">C#</code>
             <code class="code-tag">SQL</code>
             <code class="code-tag">HTML/CSS</code>
-            <code class="code-tag">Javascript</code>
             <code class="code-tag">PHP</code>
-            <code class="code-tag">C#</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3" style="text-align:left;">
-            <strong>Tools</strong>
+            <strong>AI/ML Frameworks</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
-            <code class="code-tag">Git</code>
-            <code class="code-tag">GitHub</code>
-            <code class="code-tag">Docker</code>
-            <code class="code-tag">Vim</code>
-            <code class="code-tag">Postman</code>
-            <code class="code-tag">VS code</code>
-            <code class="code-tag">Visual Studio</code>
-            <code class="code-tag">Eclipse</code>
-            <code class="code-tag">Beaver</code>
-            <code class="code-tag">Notion</code>
-            <code class="code-tag">Unity</code>
+            <code class="code-tag">PyTorch</code>
+            <code class="code-tag">TensorFlow</code>
+            <code class="code-tag">YOLOv8</code>
+            <code class="code-tag">SAM2</code>
+            <code class="code-tag">GroundDINO</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -64,9 +57,20 @@ comments: false
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
             <code class="code-tag">React</code>
-            <code class="code-tag">Restful API</code>
             <code class="code-tag">FastAPI</code>
-            <code class="code-tag">AWS</code>
+            <code class="code-tag">RESTful API</code>
+            <code class="code-tag">OAuth2</code>
+        </div>
+    </div>
+    <div class="myrow no-margin" style="vertical-align: middle;">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3" style="text-align:left;">
+            <strong>Cloud & DevOps</strong>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
+            <code class="code-tag">AWS (EC2, S3)</code>
+            <code class="code-tag">Docker</code>
+            <code class="code-tag">Git/GitHub</code>
+            <code class="code-tag">GitLab CI/CD</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -74,29 +78,31 @@ comments: false
             <strong>Database</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
-            <code class="code-mtagargin">MySQL</code>
-            <code class="code-tag">MSSQL</code>
             <code class="code-tag">PostgreSQL</code>
+            <code class="code-tag">MySQL</code>
+            <code class="code-tag">MSSQL</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3" style="text-align:left;">
-            <strong>Machine Learning</strong>
+            <strong>Computer Vision Tools</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
-            <code class="code-mtagargin">PyTorch</code>
-            <code class="code-tag">TensorFlow</code>
+            <code class="code-tag">OpenCV</code>
+            <code class="code-tag">Blender</code>
+            <code class="code-tag">Vega Prime</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3" style="text-align:left;">
-            <strong>Data Analysis</strong>
+            <strong>Development Tools</strong>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
-            <code class="code-tag">Matplotlib</code>
-            <code class="code-tag">Scikit-learn</code>
-            <code class="code-tag">Looker Studio</code>
-            <code class="code-tag">Tableau</code>
+            <code class="code-tag">VS Code</code>
+            <code class="code-tag">Visual Studio</code>
+            <code class="code-tag">Unity</code>
+            <code class="code-tag">Postman</code>
+            <code class="code-tag">Vim</code>
         </div>
     </div>
 </div>
@@ -117,10 +123,9 @@ comments: false
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">M.S. in Electrical and Computer Engineering <code>GPA: 3.86 / 4.0</code></div>
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
-            <!-- <li>Advisors: <a href="https://www.linkedin.com/in/mung-chiang-9511445/" target= "_blank">Prof. Mung Chiang</a>, <a href="https://kimkt.com/" target= "_blank"> Prof. Kwang Taik Kim</a></li> -->
             <li>Capstone Project: Organization and Analysis of Battery Data from Heterogenous Sources with
                  <strong>Astrolabe Analytics</strong></li>
-            <li>Coursework: AI For Mobile Robots, Large Language Models, Embedded System, VR Application</li>
+            <li>Coursework: Distributed Systems, AI For Mobile Robots, Large Language Models, Embedded System, VR Application</li>
         </div>
     </div><div id="row-edu-2" class="myrow hover">
         <!-- Time Range / Institution / Location -->
@@ -150,11 +155,71 @@ comments: false
         Category: 
         <a id="all" onclick="highlight(this.id)" style="margin-left: 10px;">All</a> 
         <a class="txt-ignore" id="work" onclick="highlight(this.id)" style="margin-left: 10px;"> Industry</a> 
+        <a class="txt-ignore" id="rese" onclick="highlight(this.id)" style="margin-left: 10px;"> Research</a>
         <a class="txt-ignore" id="proj" onclick="highlight(this.id)" style="margin-left: 10px;"> Course Project</a>
         </code>
     </strong>
-    <!-- UW -->
-    <div id="row-exp-1" class="myrow hover">
+    <!-- UW Research Assistant -->
+    <div id="row-exp-rese1" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jul. 2025 - Present</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Information Processing Lab, University of Washington</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
+        <!-- Position -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Graduate Research Assistant</div>
+        <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Engineered automated synthetic data generation pipeline producing 50,000+ images, integrating Vega Prime rendering and GroundDINO (Open-Set Detection) for auto-labeling, reducing manual annotation time by 50%.</li>
+                <li>Optimized dataset composition to achieve 84% mAP on YOLOv8-tiny across five environmental conditions, meeting constraints for edge deployment.</li>
+                <li>Deployed SAM2 (Segment Anything Model 2) for zero-shot semantic segmentation of microscopic particles and engineered a geometric filtering algorithm using OpenCV to decouple boundaries from cracks.</li>
+                <li>Independently developed novel integration of Generative AI Foundation Models (Hunyuan3D-2) with depth-based layering in Blender to synthesize photorealistic 3D environments for training data.</li>
+            </div>
+        </div>
+        <!-- Tags -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-rese1-1">Computer Vision</code>
+            <code id="tag-rese1-2">Object Detection</code>
+            <code id="tag-rese1-3">YOLOv8</code>
+            <code id="tag-rese1-4">Synthetic Data Generation</code>
+            <code id="tag-rese1-5">SAM2</code>
+            <code id="tag-rese1-6">Generative AI</code>
+        </div>
+    </div>
+    <!-- Distributed Systems Project -->
+    <div id="row-exp-proj5" class="myrow hover">
+        <!-- Time Range / Title / Location -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2025 - Dec. 2025</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"><strong>Distributed Systems: Sharded Key-Value Store</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
+        <!-- Position -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Course Project</div>
+        <!-- Description -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Architected a fault-tolerant, linearizable key-value storage system using Multi-Instance Paxos for consensus and log replication, ensuring data consistency across server failures and network partitions.</li>
+                <li>Implemented a fault-tolerant Shard Master service to manage dynamic re-sharding and load balancing, enabling replica groups to join/leave the cluster without service downtime.</li>
+                <li>Engineered cross-shard ACID transactions using Two-Phase Commit (2PC) with locking to ensure serializability and deadlock prevention in a distributed environment.</li>
+            </div>
+        </div>
+        <!-- Tags -->
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-proj5-1">Distributed Systems</code>
+            <code id="tag-proj5-2">Paxos</code>
+            <code id="tag-proj5-3">Java</code>
+            <code id="tag-proj5-4">Consensus Protocols</code>
+        </div>
+    </div>
+    <!-- UW Capstone Project -->
+    <div id="row-exp-proj1" class="myrow hover">
         <!-- Time Range / Title / Location -->
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Jan. 2025 - Jun. 2025</div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"><strong>UW Capstone Project: A Cloud-Based Multimodal Data Ingestion Platform for Time Series, Cycling, and Open-Circuit Battery Data</strong></div>

@@ -186,9 +186,10 @@ function show_detail(id, elements) {
 /* Only for Experience section */
 function highlight(id) {
     var ids = [
-        "all", "work", "proj",
+        "all", "work", "proj", "rese",
         "row-exp-work1", "row-exp-work2",
-        "row-exp-proj1", "row-exp-proj2", "row-exp-proj3", "row-exp-proj4"
+        "row-exp-rese1", 
+        "row-exp-proj1", "row-exp-proj2", "row-exp-proj3", "row-exp-proj4", "row-exp-proj5"
 
     ];
 
