@@ -33,9 +33,12 @@ comments: false
             <code class="code-tag">Python</code>
             <code class="code-tag">Java</code>
             <code class="code-tag">JavaScript</code>
+            <code class="code-tag">C++</code>
             <code class="code-tag">C#</code>
             <code class="code-tag">SQL</code>
             <code class="code-tag">HTML/CSS</code>
+            <code class="code-tag">Bash</code>
+            <code class="code-tag">PowerShell</code>
             <code class="code-tag">PHP</code>
         </div>
     </div>
@@ -46,9 +49,13 @@ comments: false
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
             <code class="code-tag">PyTorch</code>
             <code class="code-tag">TensorFlow</code>
-            <code class="code-tag">YOLOv8</code>
-            <code class="code-tag">SAM2</code>
-            <code class="code-tag">GroundDINO</code>
+            <code class="code-tag">HuggingFace</code>
+            <code class="code-tag">Scikit-learn</code>
+            <code class="code-tag">NumPy</code>
+            <code class="code-tag">vLLM</code>
+            <code class="code-tag">Flash-Attention2</code>
+            <code class="code-tag">SLURM</code>
+            <code class="code-tag">HPC</code>
         </div>
     </div>
     <div class="myrow no-margin" style="vertical-align: middle;">
@@ -57,8 +64,10 @@ comments: false
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9" style="text-align:left;" >
             <code class="code-tag">React</code>
+            <code class="code-tag">TypeScript</code>
             <code class="code-tag">FastAPI</code>
             <code class="code-tag">RESTful API</code>
+            <code class="code-tag">Node.js</code>
             <code class="code-tag">OAuth2</code>
         </div>
     </div>
@@ -114,7 +123,7 @@ comments: false
 <div id="edu" style="display: none">
     <div id="row-edu-1" class="myrow hover">
         <!-- Time Range / Institution / Location -->
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2024 - Mar. 2026</div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">Sep. 2024 - Jun. 2026</div>
         <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" onclick="expand('edu-1')" style="cursor:pointer"><strong>University of Washington</strong></div> -->
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>University of Washington (UW)</strong></div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Seattle, WA, USA</div>
@@ -159,6 +168,31 @@ comments: false
         <a class="txt-ignore" id="proj" onclick="highlight(this.id)" style="margin-left: 10px;"> Course Project</a>
         </code>
     </strong>
+    <!-- Khorium -->
+    <div id="row-exp-work3" class="myrow hover">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">May 2026 - Present</div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><strong>Khorium</strong></div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 text-xs-left text-sm-right text-md-right text-lg-right"><i class="fa fa-map-marker add-margin"></i>Remote, US</div>
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">Software Engineer Intern</div>
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
+            <div class="description">
+                <li>Engineered full-stack fix for a 1.6× overestimation in mesh cost prediction: replaced bounding-box surface area proxy with OCC-derived CAD face areas in Python backend, piped through PostgreSQL JSONB to a Zustand-managed React/TypeScript frontend, and recalibrated runtime model from empirical production data.</li>
+                <li>Unblocked cross-repo deployment failures in a multi-service AWS CDK pipeline by diagnosing a broken Alembic migration and resolving a cascading generated-type conflict.</li>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+            <i class="fa fa-hashtag hash-tag-spacing"></i>
+            <code id="tag-work3-1">Full-stack</code>
+            <code id="tag-work3-2">Python</code>
+            <code id="tag-work3-3">React</code>
+            <code id="tag-work3-4">TypeScript</code>
+            <code id="tag-work3-5">PostgreSQL</code>
+            <code id="tag-work3-6">AWS CDK</code>
+        </div>
+    </div>
     <!-- UW Research Assistant -->
     <div id="row-exp-rese1" class="myrow hover">
         <!-- Time Range / Title / Location -->
@@ -172,7 +206,10 @@ comments: false
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
-                <li>Engineered automated synthetic data generation pipeline producing 50,000+ images, integrating Vega Prime rendering and GroundDINO (Open-Set Detection) for auto-labeling, reducing manual annotation time by 50%.</li>
+                <li>[CVPR 2026 Workshop] First-authored research on zero-shot single-temporal anomaly detection in remote sensing using CLIP + DINOv3 dual-vision fusion (BSSRS), achieving 95.38% Pixel AUC.</li>
+                <li>Fine-tuned a lightweight Qwen3.5-VL-4B with LoRA on MixedWM38 (38k+ images) for semiconductor defect VQA, optimizing the model footprint for high-throughput inference; applied GRPO with custom reward functions to mitigate hallucinations and resolve multi-label combinatorial explosion.</li>
+                <li>Architected scalable distributed training and inference pipelines on HPC clusters including Taipei-1 (NVIDIA DGX SuperPOD) and NCHC; integrated Flash-Attention 2 and vLLM to maximize PagedAttention and VRAM utilization for high-throughput multimodal workflows.</li>
+                <li>Engineered automated synthetic data generation pipeline producing 50,000+ images, integrating Vega Prime rendering and GroundingDINO (Open-Set Detection) for auto-labeling, reducing manual annotation time by 50%.</li>
                 <li>Optimized dataset composition to achieve 84% mAP on YOLOv8-tiny across five environmental conditions, meeting constraints for edge deployment.</li>
                 <li>Deployed SAM2 (Segment Anything Model 2) for zero-shot semantic segmentation of microscopic particles and engineered a geometric filtering algorithm using OpenCV to decouple boundaries from cracks.</li>
                 <li>Independently developed novel integration of Generative AI Foundation Models (Hunyuan3D-2) with depth-based layering in Blender to synthesize photorealistic 3D environments for training data.</li>
@@ -188,6 +225,10 @@ comments: false
             <code id="tag-rese1-4">Synthetic Data Generation</code>
             <code id="tag-rese1-5">SAM2</code>
             <code id="tag-rese1-6">Generative AI</code>
+            <code id="tag-rese1-7">CVPR</code>
+            <code id="tag-rese1-8">LLM</code>
+            <code id="tag-rese1-8">VLM</code>
+            <code id="tag-rese1-9">HPC</code>
         </div>
     </div>
     <!-- Distributed Systems Project -->
@@ -231,11 +272,12 @@ comments: false
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
+                <li>Built a multimodal data ingestion platform with React and FastAPI, exposing 15+ RESTful endpoints to ingest, standardize, and query battery datasets across 6 file formats, backed by AWS RDS (PostgreSQL) and S3.</li>
+                <li>Developed LLM-powered client-server data standardization pipeline using OpenAI API for semantic schema alignment, increasing the column matching rate to 90%.</li>
                 <li>Architected a modular data processing pipeline (extract → clean → standardize → split) triggered via FastAPI endpoints and backed by S3-based file storage and PostgreSQL metadata tracking.</li>
                 <li>Implemented the frontend using React with dynamic routing and secure authentication via OAuth2, providing clients with isolated access to project-specific data.</li>
                 <li>Designed and implemented comprehensive RESTful API architecture with 15+ endpoints handling multimodal data ingestion, user authentication, and real-time processing status tracking.</li>
                 <li>Deployed and configured AWS EC2 instances with PostgreSQL database integration, ensuring secure cloud infrastructure for production-grade data storage and retrieval.</li>
-                <li>Leveraged OpenAI’s GPT API to intelligently match and standardize noisy or non-uniform column names across datasets, improving automation accuracy and reducing manual data mapping effort.</li>
             </div>
         </div>
         <!-- Tags -->
@@ -323,9 +365,9 @@ comments: false
         <div class="col-lg-2"></div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="font-size:15.5px">
             <div class="description">
-                <li>Expanded image dataset by 4.5 times using LabelImg and data augmentation techniques, improving model training efficiency.</li>
-                <li>Converted YOLOv4-tiny and earlier Darknet-based models into ONNX format to enable compatibility with hardware acceleration tools; optimized inference deployment on Xilinx KV260 via Vitis-AI, achieving 95\% mAP at 0.45 IoU and improving inference speed by 50+ FPS.</li>
-                <li>Developed a Python-based unit testing for the team project, enhancing error detection.</li>
+                <li>Built a real-time screw welding anomaly detection pipeline targeting edge deployment, expanding the labeled dataset from 1.3k to 7.6k training images (~5.6x) via geometric and noise-based augmentation.</li>
+                <li>Fine-tuned YOLOv4-tiny using a Keras-based pipeline deployed to Xilinx KV260 via Vitis-AI (.h5 → q.pb → .xmodel), achieving 100+ FPS at 8W on DPU with 90% mAP@0.45 post-quantization.</li>
+                <li>Developed Python-based unit testing for the team project, enhancing error detection.</li>
                 <li>Containerized project using Docker on Linux to reduce environment-related issues during deployment.</li>
             </div>
         </div>

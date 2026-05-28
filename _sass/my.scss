@@ -48,10 +48,21 @@ body { background-color: #222121; }
         text-align: left;
     }
     .description li {
-        list-style-type: square;
-        margin-left: 0;         // 避免整個 `li` 向右偏移
-        padding-left: 1.5rem;   // 第一行的縮排
-        text-indent: -1.2rem;   // 讓第二行之後的文字與第一行對齊
+        list-style: none;
+        position: relative;
+        margin-left: 0;
+        padding-left: 1.1rem;
+        text-indent: 0;
+    }
+    .description li::before {
+        content: "";
+        display: inline-block;
+        width: 0.42em;
+        height: 0.42em;
+        background-color: currentColor;
+        position: absolute;
+        left: 0.05rem;
+        top: 0.42em;
     }
     p {
         text-align: left;
